@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@buf/connectrpc_eliza.connectrpc_es": "^1.1.2-20230913231627-233fca715f49.1",
+    "@connectrpc/connect": "^1.1.2",
+    "@connectrpc/connect-next": "^1.1.2",
+    "@connectrpc/connect-node": "^1.1.2",
+    "@connectrpc/connect-web": "^1.1.2",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5"
+  }
+}

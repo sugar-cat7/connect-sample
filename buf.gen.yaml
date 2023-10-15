@@ -1,0 +1,14 @@
+version: v1
+plugins:
+  - plugin: go
+    out: backend/go/gen
+    opt: paths=source_relative
+  - plugin: connect-go
+    out: backend/go/gen
+    opt: paths=source_relative
+  - plugin: es
+    out: frontend/gen
+    opt: target=ts
+  - plugin: connect-es
+    out: frontend/gen
+    opt: target=ts
